@@ -1,0 +1,37 @@
+{% extends 'base.html' %}
+
+{% block title %}
+    {{ title }}
+{% endblock %}
+
+{% block style_link %}
+        <link rel="stylesheet" href="../static/css/style1.css">
+{% endblock %}
+
+{% block content %}
+<div class="cards">
+
+    <div class="card">
+        <img class="card-logo" src="../static/img/icon1.svg" alt="icon">
+        <h2 class="card-sign">Grow Your Business</h2>
+        <p class="card-description">Leverage agile frameworks to provide a robust synopsis for high level overviews.</p>
+        <a class="card-read-more" href="#">Read More...</a>
+    </div>
+
+    <div class="card">
+        <img class="card-logo" src="../static/img/icon2.svg" alt="icon">
+        <h2 class="card-sign">Get Quality Ieads</h2>
+        <p class="card-description">Leverage agile frameworks to provide a robust synopsis for high level overviews.</p>
+        <a class="card-read-more" href="#">Read More...</a>
+    </div>
+
+    <div class="card">
+        <img class="card-logo" src="../static/img/icon3.svg" alt="icon">
+        <h2 class="card-sign">Drive More Sales</h2>
+        <p class="card-description">Leverage agile frameworks to provide a robust synopsis for high level overviews.</p>
+        <a class="card-read-more" href="#">Read More...</a>
+
+    </div>
+
+</div>
+{% endblock %}
